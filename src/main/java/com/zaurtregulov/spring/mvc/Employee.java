@@ -43,9 +43,7 @@ public class Employee {
         languagList.put("French", "FR");
     }
 
-    //уаоыиалоыпалыопа
 
-    /// /лгроралпраонеаонеа
     public String getName() {
         return name;
     }
