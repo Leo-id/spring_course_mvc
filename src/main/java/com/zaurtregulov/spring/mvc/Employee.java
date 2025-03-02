@@ -8,8 +8,7 @@ import java.util.Map;
 
 public class Employee {
 
-    @Size(min=2, message = "name must be min 2 symbols")
-    @Size(max=20, message = "name must be max 20 symbols")
+    @Size(min=2, max=20, message = "name must be min 2 symbols")
     private String name;
     @NotBlank(message = "suname is required field")
     private String surname;
